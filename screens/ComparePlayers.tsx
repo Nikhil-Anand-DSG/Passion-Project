@@ -36,7 +36,7 @@ export default function ComparePlayers() {
 
   async function getJSON(name: string) {
     return await fetch(
-      "https://2ed5-208-127-73-208.ngrok-free.app/player/" +
+      "https://9ac3-199-30-194-252.ngrok-free.app/player/" +
         name +
         "/seasonStats"
     )

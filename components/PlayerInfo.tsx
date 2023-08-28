@@ -25,28 +25,28 @@ const PlayerInfoScreen = () => {
 
   async function fetchData() {
     const lebronStatsResponse = await fetch(
-      "https://2ed5-208-127-73-208.ngrok-free.app/player/lebron/seasonStats"
+      "https://9ac3-199-30-194-252.ngrok-free.app/player/lebron/seasonStats"
     );
     lebronStatsResponse
       .json()
       .then((lebronStatsResponse) => setLebronInfo(lebronStatsResponse));
 
     const durantStatsResponse = await fetch(
-      "https://2ed5-208-127-73-208.ngrok-free.app/player/durant/seasonStats"
+      "https://9ac3-199-30-194-252.ngrok-free.app/player/durant/seasonStats"
     );
     durantStatsResponse
       .json()
       .then((durantStatsResponse) => setDurantInfo(durantStatsResponse));
 
     const hardenStatsResponse = await fetch(
-      "https://2ed5-208-127-73-208.ngrok-free.app/player/harden/seasonStats"
+      "https://9ac3-199-30-194-252.ngrok-free.app/player/harden/seasonStats"
     );
     hardenStatsResponse
       .json()
       .then((hardenStatsResponse) => setHardenInfo(hardenStatsResponse));
 
     const westbrookStatsResponse = await fetch(
-      "https://2ed5-208-127-73-208.ngrok-free.app/player/westbrook/seasonStats"
+      "https://9ac3-199-30-194-252.ngrok-free.app/player/westbrook/seasonStats"
     );
     westbrookStatsResponse
       .json()
@@ -55,7 +55,7 @@ const PlayerInfoScreen = () => {
       );
 
     const lillardStatsResponse = await fetch(
-      "https://2ed5-208-127-73-208.ngrok-free.app/player/lillard/seasonStats"
+      "https://9ac3-199-30-194-252.ngrok-free.app/player/lillard/seasonStats"
     );
     lillardStatsResponse
       .json()
