@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   instructions: {
-    fontSize: 18,
+    fontSize: "8px",
     fontWeight: "bold",
     color: "black",
     marginBottom: 15,
@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     paddingBottom: 20,
   },
   instructionsSearch: {
+    fontSize: "12px",
     fontWeight: "bold",
     color: "black",
     marginBottom: 15,
@@ -19,8 +20,8 @@ export const styles = StyleSheet.create({
     alignSelf: "flex-start",
   },
   pics: {
-    minHeight: 200,
-    minWidth: 200,
+    height: 100,
+    width: 100,
   },
   input: {
     borderWidth: 2,
@@ -68,12 +69,16 @@ export const styles = StyleSheet.create({
     textAlign: "center",
   },
   container: {
+    minWidth: "100%",
+    minHeight: "100%",
     backgroundColor: "white",
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
   },
   darkContainer: {
+    minWidth: "100%",
+    minHeight: "100%",
     backgroundColor: "black",
     flex: 1,
     alignItems: "center",
@@ -163,7 +168,7 @@ export const styles = StyleSheet.create({
     color: "white",
   },
   darkInstructions: {
-    fontSize: 18,
+    fontSize: "8px",
     fontWeight: "bold",
     color: "white",
     marginBottom: 15,
@@ -171,6 +176,7 @@ export const styles = StyleSheet.create({
     paddingBottom: 20,
   },
   darkInstructionsSearch: {
+    fontSize: "8px",
     fontWeight: "bold",
     color: "white",
     marginBottom: 15,
